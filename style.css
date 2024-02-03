@@ -1,0 +1,195 @@
+header{
+
+    background: #DDDDDD;
+    padding: 0%;
+    margin: 0%;
+    padding: 20px 0px;
+}
+
+.caja{
+    margin: 0 auto;
+    position: relative;
+    width: 85%;
+    padding: 50px;
+}
+
+nav{
+    position: absolute;
+    top: 40%;
+    right: 100px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color: #c78c19;
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    background: url(img/bg.jpg);
+    padding: 45px;
+    text-align: center;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/*
+.item{
+    align-items: center;
+    background: #cccccc;
+    border: solid #000000;
+    border-radius: 5%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 1%;
+    padding: 30px 20px;
+    text-align: center;
+    width:30%;
+    vertical-align: top;
+}
+
+.item h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.item img{
+    width: 90%;
+}
+
+.producto-descripcion{
+
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+*/
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.boton-enviar{
+    background: orange;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    width:40%;
+    transition: 1s all;
+    cursor:pointer;
+
+}
+.boton-enviar:hover{
+    background-color: darkorange;
+    /* Sirve para aplicar más de un efecto al mismo tiempo
+    transform: scale(1.1) rotate(70deg);*/
+    transform: scale(1.02);
+}
+
+table{
+    margin: 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    border-style: double;
+    padding: 8px 15px;
+}

@@ -1,0 +1,54 @@
+.titulo-principal{
+    padding-left: 30px;
+}
+
+
+.banner{
+    width:100%;
+    background: #DDDDDD;
+    }
+
+.principal{
+    background: #DDDDDD;
+    padding: 20px;
+    margin: 40px 0px;
+    padding: 40px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.principal p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+em strong{
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right:0%;
+}
+
+.item{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: dotted;
+}
+
+.imagenDiferenciales{
+    width: 30%;
+}

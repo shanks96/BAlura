@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../01 JS"
+		},
+		{
+			"path": "../../02 Explorar Funciones y listas/Proyecto base"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "A1"
+	}
+}
