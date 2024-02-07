@@ -6,6 +6,10 @@ header{
     padding: 20px 0px;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .caja{
     margin: 0 auto;
     position: relative;
@@ -135,6 +139,7 @@ footer{
 }
 */
 
+
 main{
     width: 940px;
     margin: 0 auto;
@@ -192,4 +197,53 @@ td,th{
     border: 1px solid #000000;
     border-style: double;
     padding: 8px 15px;
+}
+
+/*CSS para nuestra página home*/
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 1em;
+    text-align: center;
+    clear: left;
+}
+
+.utensilios{
+    
+    float: left;
+    width: 12%;
+    margin: 0 20px 20px 0;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.ubicacion p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.ubicacion{
+    padding: 3em 0;
+}
+.imagenDiferenciales{
+    width: 60%;
+}
+
+.video{
+    margin: 1em auto;
+    width: 560px;
 }
