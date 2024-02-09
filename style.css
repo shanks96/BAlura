@@ -141,8 +141,7 @@ footer{
 
 
 main{
-    width: 940px;
-    margin: 0 auto;
+   
 }
 
 form{
@@ -204,15 +203,44 @@ td,th{
     width: 100%;
 }
 
+.principal{
+    width: 940px;
+    margin: 0 auto;
+    background: #fefefe;
+    padding: 3em 0;
+}
+
 .titulo-principal{
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
-    font-weight: bold;
     margin: 0 0 1em;
     text-align: center;
     clear: left;
+    color: rgba(0,0,0,.8);
+    transition: 400ms;
 }
 
+.titulo-principal:hover{
+    color: rgb(9, 37, 131);
+    text-shadow: 5px 5px 10px #000000;
+    transition: 400ms;
+}
+
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+
+/*.titulo-principal::before{
+    content: "[";
+}
+
+.titulo-principal::after{
+    content: "]";
+}
+p:first-line{
+    font-style: italic;
+}
+*/
 .utensilios{
     
     float: left;
@@ -232,18 +260,105 @@ td,th{
     font-style: italic;
 }
 
+
 .ubicacion p{
     margin: 0 0 2em;
     text-align: center;
 }
 .ubicacion{
     padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);
+    
 }
+
+
+.mapa-ubicacion{
+    margin: 0 auto;
+    width: 940px;
+}
+
+.diferenciales{
+    background: #888888;
+    padding: 3em 0;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+    
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.item{
+    /*margin: 1.5em 0;*/
+    line-height: 1.5;
+}
+
+.item::before{
+    content: "\1F487 ";
+}
+
+.item:first-child{
+    font-weight: bold;
+}
+
+.item:last-child{
+    font-style: italic;
+}
+
+.item:nth-child(2n){
+    color:red;
+}
+
 .imagenDiferenciales{
     width: 60%;
+    box-shadow: 10px 10px 15px #474343;
+    transition: 1.5s;
+}
+
+.imagenDiferenciales:hover{
+    opacity: 50%;
+    box-shadow: -10px -10px 15px #474343;;
+    transition: 1.5s;
+
 }
 
 .video{
     margin: 1em auto;
     width: 560px;
+}
+
+/* Querys responsivos*/
+@media screen and (max-width:480px) {
+    .caja,.principal,.mapa-ubicacion,.contenido-diferenciales,.video{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+
+    .contenido-principal{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5)), url(img/utensilios.jpg);
+        padding: 20px 10px;
+    }
+
+    .utensilios{
+        width: 0%;
+        visibility: hidden;
+    }
+
+    .lista-diferenciales,.imagenDiferenciales{
+        width: 100%;
+    }
+
+    
 }
